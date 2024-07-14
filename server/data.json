@@ -2,63 +2,71 @@
   "users": [
     {
       "id": 1,
-      "name": "Sajad",
-      "email": "sajad@example.com",
-      "phone": "+1-555-1234",
-      "address": {
-        "street": "123 Main St",
-        "city": "Anytown",
-        "state": "CA",
-        "zip": "12345"
-      }
+      "name": "Javad Oladi",
+      "profilePicture": "http://",
+      "title": "Head of International Marketing and Development",
+      "description": "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.A key aspect of my role involves fostering seamless coordination between our international offices and representatives. My primary focus is to ensure robust connections between our diverse locations, representatives worldwide, and our esteemed clients.",
+      "contact": {
+        "phone": ["+919911010081", "+989115678633"],
+        "address": [
+          "5th Floor, Dairy Farm No.3A, Masoodpur, Vasant Kunj, New Delhi - 110070",
+          "G1, #4/608 V.O.C Street, Perungudi, OMR, Chennai Tamil Nadu, 600041, India"
+        ],
+        "telephone": "+91044-28505051"
+      },
+      "videos": ["https", "https", "https"],
+      "pictures": ["https", "https", "https"]
     },
     {
       "id": 2,
-      "name": "Jane Smith",
-      "email": "janesmith@example.com",
-      "phone": "+1-555-5678",
-      "address": {
-        "street": "456 Elm St",
-        "city": "Othertown",
-        "state": "NY",
-        "zip": "67890"
-      }
+      "name": "Javad Oladi",
+      "profilePicture": "http://",
+      "title": "Head of International Marketing and Development",
+      "description": "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.A key aspect of my role involves fostering seamless coordination between our international offices and representatives. My primary focus is to ensure robust connections between our diverse locations, representatives worldwide, and our esteemed clients.",
+      "contact": {
+        "phone": ["+919911010081", "+989115678633"],
+        "address": [
+          "5th Floor, Dairy Farm No.3A, Masoodpur, Vasant Kunj, New Delhi - 110070",
+          "G1, #4/608 V.O.C Street, Perungudi, OMR, Chennai Tamil Nadu, 600041, India"
+        ],
+        "telephone": "+91044-28505051"
+      },
+      "videos": ["https", "https", "https"],
+      "pictures": ["https", "https", "https"]
     },
     {
       "id": 3,
-      "name": "Alice Johnson",
-      "email": "alicej@example.com",
-      "phone": "+1-555-9101",
-      "address": {
-        "street": "789 Oak St",
-        "city": "Somewhere",
-        "state": "TX",
-        "zip": "10111"
-      }
+      "name": "Javad Oladi",
+      "profilePicture": "http://",
+      "title": "Head of International Marketing and Development",
+      "description": "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.A key aspect of my role involves fostering seamless coordination between our international offices and representatives. My primary focus is to ensure robust connections between our diverse locations, representatives worldwide, and our esteemed clients.",
+      "contact": {
+        "phone": ["+919911010081", "+989115678633"],
+        "address": [
+          "5th Floor, Dairy Farm No.3A, Masoodpur, Vasant Kunj, New Delhi - 110070",
+          "G1, #4/608 V.O.C Street, Perungudi, OMR, Chennai Tamil Nadu, 600041, India"
+        ],
+        "telephone": "+91044-28505051"
+      },
+      "videos": ["https", "https", "https"],
+      "pictures": ["https", "https", "https"]
     },
     {
       "id": 4,
-      "name": "Bob Brown",
-      "email": "bobb@example.com",
-      "phone": "+1-555-1122",
-      "address": {
-        "street": "321 Pine St",
-        "city": "Anywhere",
-        "state": "FL",
-        "zip": "11223"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Eve Davis",
-      "email": "eved@example.com",
-      "phone": "+1-555-3344",
-      "address": {
-        "street": "654 Cedar St",
-        "city": "Everytown",
-        "state": "WA",
-        "zip": "33445"
-      }
+      "name": "Javad Oladi",
+      "profilePicture": "http://",
+      "title": "Head of International Marketing and Development",
+      "description": "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.A key aspect of my role involves fostering seamless coordination between our international offices and representatives. My primary focus is to ensure robust connections between our diverse locations, representatives worldwide, and our esteemed clients.",
+      "contact": {
+        "phone": ["+919911010081", "+989115678633"],
+        "address": [
+          "5th Floor, Dairy Farm No.3A, Masoodpur, Vasant Kunj, New Delhi - 110070",
+          "G1, #4/608 V.O.C Street, Perungudi, OMR, Chennai Tamil Nadu, 600041, India"
+        ],
+        "telephone": "+91044-28505051"
+      },
+      "videos": ["https", "https", "https"],
+      "pictures": ["https", "https", "https"]
     }
   ]
 }
