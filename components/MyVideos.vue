@@ -10,52 +10,14 @@
 
         <div class="w-full flex flex-wrap gap-[1%]">
           <div
+            v-for="video in user.videos"
+            key="video"
             class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
           >
             <video
               preload="metadata"
               controls=""
-              src="https://azmoon.aradbranding.com//storage/video-1.mp4"
-              class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-            ></video>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <video
-              preload="metadata"
-              controls=""
-              src="https://azmoon.aradbranding.com//storage/video-2.mp4"
-              class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-            ></video>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <video
-              preload="metadata"
-              controls=""
-              src="https://azmoon.aradbranding.com//storage/video-3.mp4"
-              class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-            ></video>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <video
-              preload="metadata"
-              controls=""
-              src="https://azmoon.aradbranding.com//storage/video-4.mp4"
-              class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-            ></video>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <video
-              preload="metadata"
-              controls=""
-              src="https://azmoon.aradbranding.com//storage/video-5.mp4"
+              :src="video"
               class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
             ></video>
           </div>
@@ -64,3 +26,12 @@
     </div>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  user: {
+    type: Object,
+    required: true,
+  },
+});
+</script>

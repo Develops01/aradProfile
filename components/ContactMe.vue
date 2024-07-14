@@ -34,13 +34,15 @@
           <a
             href="tel:+919911010081"
             class="text-sm md:text-md text-[--color-heading] hover:text-aradFontPink"
-            >+919911010081</a
           >
+            {{ user.contact.phone[0] }}
+          </a>
           <p class="text-sm text-[--color-meta] px-3">|</p>
           <a
             href="tel:+989115678633"
             class="text-sm md:text-md text-[--color-heading] hover:text-aradFontPink"
-            >+989115678633</a
+          >
+            {{ user.contact.phone[1] }}</a
           >
         </div>
       </div>
@@ -72,8 +74,7 @@
           <a
             href="https://aradbranding.com/fa/portfolio/javadoladi.html#"
             class="text-sm md:text-md text-[--color-heading] hover:text-aradPink text-justify"
-            >5th Floor, Dairy Farm No.3A, Masoodpur, Vasant Kunj, New Delhi -
-            110070</a
+            >{{ user.contact.address[0] }}</a
           >
         </div>
       </div>
@@ -104,8 +105,7 @@
           <a
             href="https://aradbranding.com/fa/portfolio/javadoladi.html#"
             class="text-sm md:text-md text-[--color-heading] hover:text-aradPink text-pretty"
-            >G1, #4/608 V.O.C Street, Perungudi, OMR, Chennai Tamil Nadu,
-            600041, India</a
+            >{{ user.contact.address[1] }}</a
           >
         </div>
       </div>
@@ -138,10 +138,19 @@
           <a
             href="tel:+9104428505051"
             class="text-sm md:text-md text-[--color-heading] hover:text-aradPink"
-            >+91044-28505051</a
+            >{{ user.contact.telephone }}</a
           >
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  user: {
+    type: Object,
+    required: true,
+  },
+});
+</script>

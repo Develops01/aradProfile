@@ -12,10 +12,10 @@
       </div>
       <div class="w-2/3 pl-4 -mt-14 md:-mt-16">
         <h1 class="text-2xl md:text-4xl text-white font-bold mb-5 md:mb-10">
-          {{ data.users[0].name }}
+          {{ user.name }}
         </h1>
         <p class="text-sm md:text-md md:text-lg text-aradFontGray">
-          Head of International Marketing and Development
+          {{ user.title }}
         </p>
       </div>
     </div>
@@ -24,7 +24,7 @@
 
 <script setup>
 defineProps({
-  data: {
+  user: {
     type: Object,
     required: true,
   },

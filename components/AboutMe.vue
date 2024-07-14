@@ -7,17 +7,19 @@
         Who Am I?
       </h2>
       <p class="text-md text-[--color-heading] text-justify">
-        I'm Javad Oladi, privileged to serve as the Head of International
-        Marketing and Development at Arad Branding. With a fervent passion for
-        connecting businesses worldwide, I specialize in import and export
-        services that transcend borders.
+        {{ user.description[0] }}
       </p>
       <p class="text-md text-[--color-heading] text-justify">
-        A key aspect of my role involves fostering seamless coordination between
-        our international offices and representatives. My primary focus is to
-        ensure robust connections between our diverse locations, representatives
-        worldwide, and our esteemed clients.
+        {{ user.description[1] }}
       </p>
     </div>
   </div>
 </template>
+<script setup>
+defineProps({
+  user: {
+    type: Object,
+    required: true,
+  },
+});
+</script>

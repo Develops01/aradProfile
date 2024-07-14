@@ -10,132 +10,13 @@
 
         <div class="w-full flex flex-wrap gap-[1%]">
           <div
+            v-for="picture in user.pictures"
+            :key="picture"
             class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
           >
-            <a href="/assets/meeting-25.jpg" target="_blank">
+            <a :href="picture" target="_blank">
               <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
-                alt=""
-                class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
-              />
-            </a>
-          </div>
-          <div
-            class="w-[49%] md:w-[32%] h-32 md:h-52 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-md mb-[1%]"
-          >
-            <a href="/assets/meeting-25.jpg" target="_blank">
-              <img
-                src="/assets/meeting-25.jpg"
+                :src="picture"
                 alt=""
                 class="w-full h-full object-cover rounded-md border-b-2 border-aradDirtyGold"
               />
@@ -146,3 +27,12 @@
     </div>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  user: {
+    type: Object,
+    required: true,
+  },
+});
+</script>
