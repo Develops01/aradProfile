@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Javad Oladi",
-      "profilePicture": "http://",
+      "profilePicture": "http://localhost:3000/_nuxt/assets/javadoladi.webp",
       "title": "Head of International Marketing and Development",
       "description": [
         "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.",
@@ -41,8 +41,8 @@
     },
     {
       "id": 2,
-      "name": "Javad Oladi",
-      "profilePicture": "http://",
+      "name": "Sajad Oladi",
+      "profilePicture": "http://localhost:3000/_nuxt/assets/sajadOladi.jpg",
       "title": "Head of International Marketing and Development",
       "description": [
         "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.",
@@ -56,13 +56,32 @@
         ],
         "telephone": "+91044-28505051"
       },
-      "videos": ["https", "https", "https"],
-      "pictures": ["https", "https", "https"]
+      "videos": [
+        "https://azmoon.aradbranding.com//storage/video-1.mp4",
+        "https://azmoon.aradbranding.com//storage/video-2.mp4",
+        "https://azmoon.aradbranding.com//storage/video-3.mp4",
+        "https://azmoon.aradbranding.com//storage/video-4.mp4",
+        "https://azmoon.aradbranding.com//storage/video-5.mp4"
+      ],
+      "pictures": [
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg"
+      ]
     },
     {
       "id": 3,
-      "name": "Javad Oladi",
-      "profilePicture": "http://",
+      "name": "Javid Mirzai",
+      "profilePicture": "http://localhost:3000/_nuxt/assets/logo.png",
       "title": "Head of International Marketing and Development",
       "description": [
         "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.",
@@ -76,13 +95,32 @@
         ],
         "telephone": "+91044-28505051"
       },
-      "videos": ["https", "https", "https"],
-      "pictures": ["https", "https", "https"]
+      "videos": [
+        "https://azmoon.aradbranding.com//storage/video-1.mp4",
+        "https://azmoon.aradbranding.com//storage/video-2.mp4",
+        "https://azmoon.aradbranding.com//storage/video-3.mp4",
+        "https://azmoon.aradbranding.com//storage/video-4.mp4",
+        "https://azmoon.aradbranding.com//storage/video-5.mp4"
+      ],
+      "pictures": [
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg",
+        "http://localhost:3000/_nuxt/assets/meeting-25.jpg"
+      ]
     },
     {
       "id": 4,
-      "name": "Javad Oladi",
-      "profilePicture": "http://",
+      "name": "Ali Sawari",
+      "profilePicture": "http://localhost:3000/_nuxt/assets/logo.png",
       "title": "Head of International Marketing and Development",
       "description": [
         "I'm Javad Oladi, privileged to serve as the Head of International Marketing and Development at Arad Branding. With a fervent passion for connecting businesses worldwide, I specialize in import and export services that transcend borders.",

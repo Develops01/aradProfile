@@ -11,12 +11,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  // generate: {
-  //   routes: async () => {
-  //     const dataPath = path.resolve(__dirname, "server/data.json");
-  //     const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  //     return data.users.map((user: { id: number }) => `/profile/${user.id}`);
-  //   },
-  // },
+  generate: {
+    routes: ["/users/:id"],
+  },
   compatibilityDate: "2024-07-14",
 });

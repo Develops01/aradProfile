@@ -5,7 +5,7 @@
         class="w-28 md:w-52 h-28 md:h-52 flex items-center bg-white rounded-full p-1.5 -mt-16 md:-mt-24 shadow-lg"
       >
         <img
-          src="/assets/javadoladi.webp"
+          :src="user.profilePicture"
           alt="profile"
           class="w-full h-full rounded-full object-cover"
         />

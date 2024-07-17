@@ -1,77 +1,9 @@
-<!-- <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { useRoute } from "vue-router";
-
-interface User {
-  id: number;
-  name: string;
-  profilePicture: string;
-  title: string;
-  description: string;
-  contact: {
-    phone: string[];
-    address: string[];
-    telephone: string;
-  };
-  videos: string[];
-  pictures: string[];
-}
-
-const route = useRoute();
-const user = ref<User | null>(null);
-
-const fetchUser = async () => {
-  const data = await import("~/server/data.json");
-  user.value =
-    data.users.find((u: User) => u.id === Number(route.params.id)) || null;
-};
-
-onMounted(fetchUser);
-</script> -->
-
 <script setup>
+const route = useRoute();
+const pageId = +route.params.id.slice(1, -1);
 import data from "../../server/data.json";
-const user = data.users[0];
+const user = data.users[pageId];
 </script>
-
-<!-- 
-<script lang="ts">
-import { defineComponent, ref, onMounted } from "vue";
-import { useRoute } from "vue-router";
-
-interface User {
-  id: number;
-  name: string;
-  profilePicture: string;
-  title: string;
-  description: string;
-  contact: {
-    phone: string[];
-    address: string[];
-    telephone: string;
-  };
-  videos: string[];
-  pictures: string[];
-}
-
-export default defineComponent({
-  setup() {
-    const route = useRoute();
-    const user = ref<User | null>(null);
-
-    const fetchUser = async () => {
-      const data = await import("~/server/data.json");
-      user.value =
-        data.users.find((u: User) => u.id === Number(route.params.id)) || null;
-    };
-
-    onMounted(fetchUser);
-
-    return { user };
-  },
-});
-console.log(user.value);
-</script> -->
 
 <template>
   <div v-if="user">
